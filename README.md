@@ -1,9 +1,9 @@
-# Real Python Materials
+!#Real Python Materials
 
 Bonus materials, exercises, and example projects for Real Python's [Python tutorials](https://realpython.com).
 
 Build Status:
-[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/realpython/materials/linters.yml?branch=master)](https://github.com/realpython/materials/actions)
+[ [GitHub Actions](https://img.shields.io/github/actions/workflow/status/realpython/materials/linters.yml?branch=master)](https://github.com/realpython/materials/actions)
 
 ## Got a Question?
 
@@ -28,10 +28,11 @@ $ black --check .
 
 We're using a tool called [black](https://black.readthedocs.io/) on this repo to ensure consistent formatting. On CI it runs in "check" mode to ensure any new files added to the repo follow PEP 8. If you see linter warnings that say something like "would reformat some_file.py" it means that black disagrees with your formatting.
 
-**The easiest way to resolve these errors is to run Black locally on the code and then commit those changes, as explained below.**
+ #The easiest way to resolve these errors is to run Black locally on the code and then commit those changes, as explained below.**
 
 To automatically re-format your code to be consistent with our code style guidelines, run [black](https://black.readthedocs.io/) in the repository root folder:
 
 ```sh
 $ black .
 ```
+ 
